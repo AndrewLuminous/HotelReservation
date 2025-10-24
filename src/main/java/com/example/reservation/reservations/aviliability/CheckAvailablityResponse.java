@@ -1,6 +1,6 @@
 package com.example.reservation.reservations.aviliability;
 
-public record CheckAvailablityResponse
+public record CheckAvailabilityResponse
         (
                 String message,
                 AvailabilityStatus status
