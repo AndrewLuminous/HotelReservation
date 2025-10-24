@@ -19,7 +19,7 @@ public class ReservationAvailabilityController {
     }
 
     @PostMapping("/check")
-    public ResponseEntity<CheckAvailablityResponse> checkAvailability(
+    public ResponseEntity<CheckAvailabilityResponse> checkAvailability(
             @Valid CheckAvailabilityRequest request)
     {
         logger.info("Received check availability request");
@@ -30,6 +30,6 @@ public class ReservationAvailabilityController {
                 );
         var message = isAvailable ? "Reservation is available" : "Reservation is not available";
         var status = isAvailable ? AvailabilityStatus.AVAILABLE : AvailabilityStatus.RESERVED;
-        return ResponseEntity.status(HttpStatus.OK).body(new CheckAvailablityResponse(message, status));
+        return ResponseEntity.status(HttpStatus.OK).body(new CheckAvailabilityResponse(message, status));
     }
 }
