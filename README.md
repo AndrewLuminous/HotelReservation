@@ -47,5 +47,5 @@ HotelReservation - это обычный RESTful web проект на Spring bo
 Также покажу контейниризацию баз данных и структуру проекта по фичам
 
 ![docker](https://github.com/AndrewLuminous/HotelReservation/blob/main/images/docker.png)
-https://github.com/AndrewLuminous/HotelReservation/blob/main/images/idea.png
+
 ![idea](https://github.com/AndrewLuminous/HotelReservation/blob/main/images/idea.png)
